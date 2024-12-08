@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High Seas Automation</title>
+    <style>
+      html {
+        width: 600px;
+        height: 400px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        margin: 0;
+        padding: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      h2,
+      h3,
+      h4 {
+        color: #444;
+      }
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      #status {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>High Seas Automation</h1>
+    
+    <h3>
+      Enter your Groq API Key (get one
+      <a href="https://console.groq.com/keys" target="_blank" rel="noopener noreferrer">here</a>)
+    </h3>
+    <input type="text" id="apiKey" placeholder="Enter API Key" />
+    <button id="saveButton">Save</button>
+    <p id="status"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
