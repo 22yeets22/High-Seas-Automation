@@ -1,0 +1,23 @@
+{
+  "name": "HighSeas Automation",
+  "version": "0.1.0",
+  "description": "Automates boring tasks in HighSeas",
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://highseas.hackclub.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["wonderdome.js", "shop.js", "harbor.js"],
+      "matches": ["https://highseas.hackclub.com/*"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": "favicon.png"
+  }
+}
