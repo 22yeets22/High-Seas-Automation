@@ -58,7 +58,7 @@
     let vote = firstH3 ? firstH3.textContent : "No specifc vote, give your best guess.";
 
     let promptContent = `Write 2 or less concise sentences about ${vote}. Assume both projects are programming projects. Write without big vocabulary. Give your best try even if the README's are not there. DO NOT ADD ANYTHING ELSE other than your response.
-Currently written:${textarea.value}\n
+Currently written (add to this): ${textarea.value}\n
 Both README's are below:
 ${readmeContents.join("\n")}`;
 
