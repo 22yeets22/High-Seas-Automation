@@ -1,6 +1,8 @@
 # High Seas Automation
 Automates boring tasks on High Seas (like voting!)
 
+![thumbnail](https://raw.githubusercontent.com/22yeets22/High-Seas-Automation/refs/heads/main/thumbnail.png)
+
 ## Description
 High Seas Automation is a Chrome extension designed to simplify and enhance your experience on High Seas by automating specific tasks on designated web pages.
 
