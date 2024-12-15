@@ -7,8 +7,10 @@ chrome.storage.sync.get("apiKey", function (result) {
     injectScript("wonderdome.js", { apiKey: apiKey });
   } else if (pathname === "/shop") {
     injectScript("shop.js");
-  } else if (pathname === "/harbor") {
-    injectScript("harbor.js");
+  } else if (pathname === "/shipyard") {
+    injectScript("shipyard.js");
+  } else if (pathname === "/signpost") {
+    injectScript("signpost.js");
   }
 });
 

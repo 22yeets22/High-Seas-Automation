@@ -19,6 +19,7 @@
   // Add button functionality
   function addButtonToVotingReasonContainer(container) {
     const button = document.createElement("button");
+    button.id = "autoWriteButton";
     button.className =
       "bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-6 mr-3 rounded-lg transition-colors duration-200 text-lg w-full sm:w-auto disabled:opacity-50 disabled:cursor-not-allowed";
     button.onclick = autoWrite;
@@ -33,6 +34,9 @@
 
   // Handle button click
   function autoWrite() {
+    const autoWriteButton = document.getElementById("autoWriteButton");
+    autoWriteButton.disabled = true;
+
     const readmeLinks = document.querySelectorAll("#repository-link");
     let readmeContents = [];
     readmeLinks.forEach((link) => {
@@ -100,6 +104,8 @@ ${readmeContents.join("\n")}`;
         console.error("Error during API call:", error);
         textarea.value += "Error during API call. Please try again.";
       });
+
+    autoWriteButton.disabled = false;
   }
 
   // Initialize logic for Wonderdome

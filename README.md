@@ -9,6 +9,7 @@ High Seas Automation is a Chrome extension designed to simplify and enhance your
 ## Features
 - **Auto AI Vote**: Automatically uses llama to write an AI response.
 - **Ctrl-Enter Quick Submit**: A quick keybind to submit the response.
+- **Doubloon Ranker**: Quickly see which one of your projects are doing the best.
 - more coming...
 
 ## Installation
