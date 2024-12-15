@@ -21,3 +21,7 @@ High Seas Automation is a Chrome extension designed to simplify and enhance your
 6. Once installed, open the extension.
 7. Add an api key from [here](https://console.groq.com/keys) (you may need to create an account).
 8. Navigate to High Seas, and enjoy not having to type!
+
+
+  
+Disclaimer: I am not responsible if you get banned using this.
